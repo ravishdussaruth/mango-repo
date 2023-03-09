@@ -17,9 +17,10 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": "^8.0",
         "illuminate/support": "^9.0",
-        "larachimp/pine-annotations": "dev-develop"
+        "larachimp/pine-annotations": "dev-develop",
+        "symfony/finder": "6.0.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
